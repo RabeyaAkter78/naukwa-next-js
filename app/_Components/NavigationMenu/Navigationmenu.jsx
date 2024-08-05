@@ -27,7 +27,7 @@ export default function Navigationmenu() {
           </div>
         </Link>
 
-        <div className="flex items-center gap-5">
+        <div className="items-center">
           <button className="md:hidden" onClick={toggleMenu}>
             {isMenu ? (
               <FaFantasyFlightGames className="h-6 w-6" />
@@ -69,6 +69,14 @@ export default function Navigationmenu() {
                   </NavigationMenuLink>
                 </Link>
               </NavigationMenuItem>
+              {isMenu && (
+                <div className="md:hidden flex justify-end items-center mt-4">
+                  <div className="px-2 py-1 border flex gap-2 justify-center items-center rounded">
+                    <FaRegCircleUser className="h-7 w-5" />
+                    <p>Join Now</p>
+                  </div>
+                </div>
+              )}
             </NavigationMenuList>
           </NavigationMenu>
         </div>
@@ -81,14 +89,14 @@ export default function Navigationmenu() {
         </div>
       </div>
 
-      {isMenu && (
-        <div className="md:hidden flex justify-center items-center mt-4">
+      {/* {isMenu && (
+        <div className="md:hidden flex justify-end items-center mt-4">
           <div className="px-2 py-1 border flex gap-2 justify-center items-center rounded">
             <FaRegCircleUser className="h-7 w-5" />
             <p>Join Now</p>
           </div>
         </div>
-      )}
+      )} */}
     </div>
   );
 }
