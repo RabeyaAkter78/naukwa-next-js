@@ -45,19 +45,19 @@ export default function Footer() {
           </div>
         </div>
         <hr />
-        <footer className="footer text-white border-base-300 border-t px-10 py-4">
-          <aside className="grid-flow-col items-center">
+        <div className="flex justify-between items-center gap-5 text-white border-base-300 border-t py-4 pb-10">
+          <div className="flex gap-2 justify-center items-center">
             <Image src="/Group 94.png" alt="" height={50} width={50}></Image>{" "}
             <p>Design & Developed by Sparktech Agency </p>
-          </aside>
-          <nav className="md:place-self-center md:justify-self-end">
-            <div className="grid grid-flow-col gap-4">
+          </div>
+          <div className="justify-end">
+            <div className="flex flex-col md:flex-row  gap-4">
               <p>Privacy Policy</p>
               <p>Terms of Use</p>
               <p>How to order?</p>
             </div>
-          </nav>
-        </footer>
+          </div>
+        </div>
       </div>
     </div>
   );
