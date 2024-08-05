@@ -5,9 +5,9 @@ export default function Banner() {
   return (
     <div className="bg-[#334A55] ">
       <div className=" container mx-auto bg-bannerBg pt-56 pb-60">
-        <div className="flex gap-5 justify-center items-center w-full">
-          <div className="w-1/2">
-            <h1 className="text-6xl text-white font-bold mb-3">
+        <div className="flex sm:flex-col md:flex-row lg:flex-row  gap-5 justify-center items-center w-full">
+          <div className="sm:w-full md:w-full lg:w-1/2">
+            <h1 className="sm:text-5xl md:text-6xl text-white font-bold mb-3">
               WRITING <br />
               <span className="font-semibold"> Commissioned Works</span>
             </h1>

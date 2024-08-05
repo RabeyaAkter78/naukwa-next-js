@@ -72,7 +72,7 @@ export default function Navbar() {
           </ul>
         </div>
         <div className="navbar-end ">
-          <div className=" px-2 py-1 outline flex gap-2 justify-center items-center rounded">
+          <div className="px-2 py-1 outline flex gap-2 justify-center items-center rounded">
             <FaRegCircleUser className="h-7 w-5" />
             <p>Join Now</p>
           </div>

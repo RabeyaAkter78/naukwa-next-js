@@ -1,7 +1,7 @@
 import Image from "next/image";
-import Banner from "./Components/Banner/Banner";
-import Service from "./Components/Service/Service";
-import Order from "./Components/Order/Order";
+import Banner from "./_Components/Banner/Banner";
+import Service from "./_Components/Service/Service";
+import Order from "./_Components/Order/Order";
 
 export default function Home() {
   return (
